@@ -1,0 +1,25 @@
+.floatButton {
+    transition: right .25s ease-in-out;
+    position: fixed;
+    right: -65px;
+    z-index: 4;
+    top: 24.5%;
+    transform: rotate(90deg);
+}
+
+.floatButton.open {
+    right: 364px;
+}
+
+.scoringGuidanceTableInner {
+    transition: right .25s ease-in-out;
+    position: fixed;
+    right: -450px;
+    top: 15%;
+    z-index: 4;
+}
+
+.scoringGuidanceTable.open .scoringGuidanceTableInner {
+    right: 0!important;
+    overflow-y: auto;
+}

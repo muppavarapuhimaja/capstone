@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem!important;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('../../images/background.jpg') center;
+  background-size: cover;
+}
+
+.MuiButton-root, .MuiButtonBase-root {
+  outline: none!important;
+}
+
+div { outline: none!important; }
+
+.alert {
+  font-size: 0.7rem!important;
+  padding: 5px!important;
+  margin-bottom: 0!important;
+}
+
+.transparent-bg {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.exportButton, .exportButton:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.sidebar-menu-items > a {
+  color: black;
+  text-decoration: none!important;
+  font-weight: 800!important;
+}
+
+@media only screen and (max-width: 720px) {
+  #btnLogout{
+    float: right;
+    margin-right: 60%;
+  }
+  #btnReset{
+    float: right;
+    margin-right: 60%;
+  }
+}
